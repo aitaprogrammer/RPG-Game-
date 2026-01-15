@@ -1,0 +1,48 @@
+{
+    "elder_start": {
+        "speaker": "Elder",
+        "text": "Greetings, hero! A slime is blocking the road. Can you defeat it?",
+        "choices": [
+            {
+                "text": "Yes, I will!",
+                "next": "elder_accept",
+                "action": "START_QUEST",
+                "questID": "tutorial_quest"
+            },
+            {
+                "text": "No, it's too scary.",
+                "next": "elder_reject"
+            }
+        ]
+    },
+    "elder_accept": {
+        "speaker": "Elder",
+        "text": "Excellent! Return to me when it is done.",
+        "choices": [
+            {
+                "text": "I'm on it.",
+                "next": null
+            }
+        ]
+    },
+    "elder_reject": {
+        "speaker": "Elder",
+        "text": "Coward...",
+        "choices": [
+            {
+                "text": "...",
+                "next": null
+            }
+        ]
+    },
+    "elder_complete": {
+        "speaker": "Elder",
+        "text": "You did it! The village is safe.",
+        "choices": [
+            {
+                "text": "It was easy.",
+                "next": null
+            }
+        ]
+    }
+}

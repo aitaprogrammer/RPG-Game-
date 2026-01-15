@@ -1,0 +1,58 @@
+{
+    "chamber": {
+        "name": "Chamber",
+        "description": "The starting point.",
+        "mapAsset": "chamber_bg",
+        "nextLevel": "forest",
+        "isGenerate": true,
+        "enemyCount": 5
+    },
+    "forest": {
+        "name": "Forest",
+        "description": "A dark, mysterious wood.",
+        "mapAsset": "forest_bg",
+        "nextLevel": "dungeon",
+        "isGenerate": true,
+        "enemyCount": 8
+    },
+    "dungeon": {
+        "name": "Dungeon",
+        "description": "Deep underground.",
+        "mapAsset": "dungeon_bg",
+        "nextLevel": "cave",
+        "isGenerate": true,
+        "enemyCount": 12
+    },
+    "cave": {
+        "name": "Cave",
+        "description": "The final challenge.",
+        "mapAsset": "cave_bg",
+        "nextLevel": "cyberpunk",
+        "isGenerate": true,
+        "enemyCount": 15
+    },
+    "cyberpunk": {
+        "name": "Cyberpunk City",
+        "description": "A neon-lit dystopia.",
+        "mapAsset": "cyberpunk_bg",
+        "nextLevel": "library",
+        "isGenerate": true,
+        "enemyCount": 18
+    },
+    "library": {
+        "name": "Ancient Library",
+        "description": "Knowledge is power.",
+        "mapAsset": "library_bg",
+        "nextLevel": "underwater",
+        "isGenerate": true,
+        "enemyCount": 20
+    },
+    "underwater": {
+        "name": "Underwater Ruins",
+        "description": "Deep below the surface.",
+        "mapAsset": "underwater_bg",
+        "nextLevel": null,
+        "isGenerate": true,
+        "enemyCount": 25
+    }
+}

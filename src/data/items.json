@@ -1,0 +1,159 @@
+{
+    "potion_health_small": {
+        "name": "Small Health Potion",
+        "sprite": "item_potion_red",
+        "frame": 0,
+        "description": "Restores 20 HP",
+        "type": "CONSUMABLE",
+        "rarity": "common",
+        "stackable": true,
+        "maxStack": 10,
+        "effect": {
+            "type": "heal",
+            "stat": "hp",
+            "value": 20
+        }
+    },
+    "potion_health_medium": {
+        "name": "Health Potion",
+        "sprite": "item_potion_red",
+        "frame": 0,
+        "description": "Restores 50 HP",
+        "type": "CONSUMABLE",
+        "rarity": "uncommon",
+        "stackable": true,
+        "maxStack": 10,
+        "effect": {
+            "type": "heal",
+            "stat": "hp",
+            "value": 50
+        }
+    },
+    "potion_mana_small": {
+        "name": "Small Mana Potion",
+        "sprite": "item_potion_blue",
+        "frame": 1,
+        "description": "Restores 15 Mana",
+        "type": "CONSUMABLE",
+        "rarity": "common",
+        "stackable": true,
+        "maxStack": 10,
+        "effect": {
+            "type": "restore",
+            "stat": "mana",
+            "value": 15
+        }
+    },
+    "sword_iron": {
+        "name": "Iron Sword",
+        "sprite": "item_sword",
+        "frame": 2,
+        "description": "A basic iron sword. +5 Attack",
+        "type": "WEAPON",
+        "rarity": "common",
+        "stackable": false,
+        "slot": "mainHand",
+        "stats": {
+            "attack": 5
+        }
+    },
+    "sword_steel": {
+        "name": "Steel Sword",
+        "sprite": "item_sword",
+        "frame": 3,
+        "description": "A sturdy steel sword. +10 Attack",
+        "type": "WEAPON",
+        "rarity": "uncommon",
+        "stackable": false,
+        "slot": "mainHand",
+        "stats": {
+            "attack": 10
+        }
+    },
+    "shield_wooden": {
+        "name": "Wooden Shield",
+        "sprite": "item_shield",
+        "frame": 4,
+        "description": "A simple wooden shield. +3 Defense",
+        "type": "ARMOR",
+        "rarity": "common",
+        "stackable": false,
+        "slot": "offHand",
+        "stats": {
+            "defense": 3
+        }
+    },
+    "gold_coin": {
+        "name": "Gold Coin",
+        "sprite": "item_coin",
+        "frame": 5,
+        "description": "Shiny gold currency",
+        "type": "CURRENCY",
+        "rarity": "common",
+        "stackable": true,
+        "maxStack": 9999
+    },
+    "code_fragment": {
+        "name": "Code Fragment",
+        "sprite": "item_fragment",
+        "frame": 6,
+        "description": "A shard of the Source. Collect these to restore reality.",
+        "type": "QUEST",
+        "rarity": "rare",
+        "stackable": true,
+        "maxStack": 100
+    },
+    "ring_strength": {
+        "name": "Ring of Strength",
+        "sprite": "item_ring",
+        "frame": 7,
+        "description": "Increases attack power. +3 Attack",
+        "type": "ACCESSORY",
+        "rarity": "rare",
+        "stackable": false,
+        "slot": "accessory",
+        "stats": {
+            "attack": 3
+        }
+    },
+    "med_kit": {
+        "name": "Med Kit",
+        "sprite": "med_kit",
+        "customTexture": true,
+        "description": "Restores 50 HP. Very rare!",
+        "type": "CONSUMABLE",
+        "rarity": "rare",
+        "stackable": true,
+        "maxStack": 5,
+        "effect": {
+            "type": "heal",
+            "stat": "hp",
+            "value": 50
+        }
+    },
+    "energy_kit": {
+        "name": "Energy Kit",
+        "sprite": "energy_kit",
+        "customTexture": true,
+        "description": "Restores 25 Energy. Recharges the blue bar!",
+        "type": "CONSUMABLE",
+        "rarity": "uncommon",
+        "stackable": true,
+        "maxStack": 5,
+        "effect": {
+            "type": "restore",
+            "stat": "mana",
+            "value": 25
+        }
+    },
+    "coin": {
+        "name": "Gold Coin",
+        "sprite": "coin",
+        "customTexture": true,
+        "description": "Shiny gold currency",
+        "type": "CURRENCY",
+        "rarity": "common",
+        "stackable": true,
+        "maxStack": 9999
+    }
+}

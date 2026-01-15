@@ -1,0 +1,19 @@
+{
+    "tutorial_quest": {
+        "title": "Slime Hunter",
+        "description": "The Village Elder needs you to clear the path.",
+        "objectives": [
+            {
+                "type": "KILL",
+                "target": "slime",
+                "amount": 1,
+                "current": 0
+            }
+        ],
+        "reward": {
+            "xp": 100,
+            "gold": 50
+        },
+        "status": "INACTIVE"
+    }
+}

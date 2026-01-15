@@ -1,0 +1,63 @@
+{
+    "slime": {
+        "name": "Green Slime",
+        "sprite": "slime",
+        "hp": 30,
+        "speed": 50,
+        "damage": 5,
+        "xpReward": 10,
+        "chaseDistance": 150,
+        "attackRange": 20,
+        "attackCooldown": 1000,
+        "lootTable": "slime_loot"
+    },
+    "slime_blue": {
+        "name": "Blue Slime",
+        "sprite": "slime_blue",
+        "hp": 50,
+        "speed": 40,
+        "damage": 8,
+        "xpReward": 20,
+        "chaseDistance": 120,
+        "attackRange": 25,
+        "attackCooldown": 1200,
+        "lootTable": "slime_loot"
+    },
+    "goblin_scout": {
+        "name": "Goblin Scout",
+        "sprite": "goblin",
+        "hp": 45,
+        "speed": 80,
+        "damage": 8,
+        "xpReward": 25,
+        "chaseDistance": 200,
+        "attackRange": 30,
+        "attackCooldown": 800,
+        "lootTable": "goblin_loot"
+    },
+    "goblin_warrior": {
+        "name": "Goblin Warrior",
+        "sprite": "goblin_warrior",
+        "hp": 80,
+        "speed": 60,
+        "damage": 15,
+        "xpReward": 50,
+        "chaseDistance": 180,
+        "attackRange": 35,
+        "attackCooldown": 1000,
+        "lootTable": "goblin_loot"
+    },
+    "null_shard": {
+        "name": "Null Shard",
+        "sprite": "null_shard",
+        "hp": 200,
+        "speed": 70,
+        "damage": 25,
+        "xpReward": 200,
+        "chaseDistance": 300,
+        "attackRange": 50,
+        "attackCooldown": 1500,
+        "lootTable": "boss_loot",
+        "isBoss": true
+    }
+}
