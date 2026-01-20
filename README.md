@@ -97,5 +97,5 @@ Because the engine is data-driven, you can add new content by simply editing the
 * [ ] **Mobile Support:** Touch control overlays.
 
 ## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+FREE for all Public use 😁
+                                                          aita group of technologies
